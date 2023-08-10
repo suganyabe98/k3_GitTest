@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Bing Suite]">
+  <test thread-count="5" name="bing Test(failed)">
+    <classes>
+      <class name="a2_bingTest.A1_Samplebing">
+        <methods>
+          <include name="loginBingTest"/>
+        </methods>
+      </class> <!-- a2_bingTest.A1_Samplebing -->
+    </classes>
+  </test> <!-- bing Test(failed) -->
+</suite> <!-- Failed suite [Bing Suite] -->
